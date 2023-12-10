@@ -135,6 +135,7 @@ def step_impl(context, message):
     )
     assert(found)
 
+
 ##################################################################
 # This code works because of the following naming convention:
 # The id field for text input in the html is the element name

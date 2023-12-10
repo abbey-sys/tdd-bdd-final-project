@@ -16,6 +16,7 @@ Scenario: The server is running
     Then I should see "Product Catalog Administration" in the title
     And I should not see "404 Not Found"
 
+
 Scenario: Create a Product
     When I visit the "Home Page"
     And I set the "Name" to "Hammer"
